@@ -1,6 +1,6 @@
 # 💼 Mendata – Site Institucional
 
-Este é o site institucional da **Mendata**, criado por **Camila Eduarda Mendes**, com o objetivo de apresentar seus serviços de consultoria em **dados, processos logísticos, automação e melhoria contínua**.
+Este é o site institucional da **Mendata**, criado por **Camila Mendes**, com o objetivo de apresentar seus serviços de consultoria em **dados, processos logísticos, automação e melhoria contínua**.
 
 🔗 **Site ao vivo:** [https://oimendes.github.io/mendata-site](https://oimendes.github.io/mendata-site)
 
