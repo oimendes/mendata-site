@@ -2,7 +2,7 @@
 
 Este é o site institucional da **Mendata**, criado por **Camila Mendes**, com o objetivo de apresentar seus serviços de consultoria em **dados, processos logísticos, automação e melhoria contínua**.
 
-🔗 **Site ao vivo:** [https://oimendes.github.io/mendata-site](https://oimendes.github.io/mendata-site)
+🔗 **Site ao vivo:** https://www.mendata.com.br/
 
 ---
 
