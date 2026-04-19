@@ -25,24 +25,24 @@ body {
 /* 2. HEADER E LOGO (FINO E ELEGANTE) */
 header { 
   background: rgba(0, 0, 0, 0.95); border-bottom: 1px solid #333; 
-  position: sticky; top: 0; z-index: 100; padding: 8px 0; 
+  position: sticky; top: 0; z-index: 100; padding: 5px 0 !important; /* Menu fino */
   backdrop-filter: blur(10px);
 }
 .header-flex { display: flex; justify-content: space-between; align-items: center; }
 .brand { display: flex; align-items: center; gap: 15px; }
 
 .logo { 
-  height: 80px !important; width: auto !important; 
+  height: 60px !important; width: auto !important; /* Logo pequena e elegante */
   filter: brightness(1.1); transition: 0.3s ease; 
 }
 .logo:hover { transform: scale(1.05); }
 
-.brand-text { font-size: 16px; color: #fff !important; letter-spacing: 1px; }
+.brand-text { font-size: 14px; color: #fff !important; letter-spacing: 1px; }
 .purple-text { color: var(--primary) !important; }
 
 /* 3. MENU DE NAVEGAÇÃO */
 nav ul { display: flex; gap: 20px; list-style: none; }
-nav a { color: var(--text) !important; font-size: 14px; position: relative; }
+nav a { color: var(--text) !important; font-size: 13px !important; position: relative; }
 nav a:hover { color: var(--primary) !important; }
 nav a::after {
   content: ''; position: absolute; width: 0; height: 2px;
@@ -51,9 +51,23 @@ nav a::after {
 }
 nav a:hover::after { width: 100%; }
 
-/* 4. TIPOGRAFIA AJUSTADA */
+/* 4. TIPOGRAFIA E CENTRALIZAÇÃO */
 h1 { font-size: 32px; color: var(--primary); text-transform: uppercase; margin-bottom: 20px; text-align: center; }
 h2 { font-size: 28px; color: var(--primary); text-transform: uppercase; text-align: center; margin-bottom: 40px; }
+
+/* Centralização da Home e Contato */
+#home, #contato {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#home p, #contato p {
+  max-width: 700px;
+  margin: 0 auto 25px;
+  color: var(--gray);
+}
 
 /* 5. SEÇÃO SOBRE E LINKS SOCIAIS */
 .sobre-container { display: flex; align-items: center; gap: 50px; }
@@ -64,7 +78,7 @@ h2 { font-size: 28px; color: var(--primary); text-transform: uppercase; text-ali
 }
 .sobre-img img:hover { transform: scale(1.03); box-shadow: 0 0 30px rgba(139, 92, 246, 0.3); }
 
-.social-links { display: flex; gap: 15px; margin-top: 25px; }
+.social-links { display: flex; gap: 15px; margin-top: 25px; justify-content: center; }
 .social-links a { 
   background: #222; width: 50px; height: 50px; 
   display: flex; align-items: center; justify-content: center; 
@@ -76,7 +90,7 @@ h2 { font-size: 28px; color: var(--primary); text-transform: uppercase; text-ali
   box-shadow: 0 8px 20px rgba(139, 92, 246, 0.4); 
 }
 
-/* 6. CARDS DE SERVIÇOS (INTERATIVIDADE RECUPERADA) */
+/* 6. CARDS DE SERVIÇOS (INTERATIVIDADE) */
 .servicos-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
 .servico-card { 
   background: var(--card-bg); padding: 40px 30px; border-radius: 20px; 
@@ -104,13 +118,12 @@ h2 { font-size: 28px; color: var(--primary); text-transform: uppercase; text-ali
   box-shadow: -5px 5px 25px rgba(0,0,0,0.4);
 }
 .link-projeto { color: var(--primary) !important; font-size: 15px; margin-top: 15px; display: inline-block; }
-.link-projeto:hover { letter-spacing: 1px; }
 
-/* 8. BOTÕES ROXOS */
+/* 8. BOTÕES ROXOS CENTRALIZADOS */
 .btn { 
   background: var(--primary) !important; color: #fff !important; 
   padding: 16px 35px; border-radius: 50px; display: inline-block;
-  margin-top: 25px; font-size: 15px; transition: all 0.3s ease; 
+  margin-top: 10px; font-size: 15px; transition: all 0.3s ease; 
   cursor: pointer; position: relative;
 }
 .btn:hover { 
