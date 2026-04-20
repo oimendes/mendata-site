@@ -181,3 +181,24 @@ footer { background: #000; padding: 60px 0; text-align: center; border-top: 1px 
     margin: 20px auto 0 !important;
   }
 }
+@media (max-width: 768px) {
+  /* Adicione estas linhas abaixo: */
+
+  nav ul { 
+    display: flex; 
+    flex-wrap: wrap;      /* Se não couber em uma linha, ele pula para baixo alinhado */
+    justify-content: center; 
+    gap: 10px;            /* Diminui o espaço entre os links no celular */
+    margin-top: 10px; 
+  }
+
+  nav a { 
+    font-size: 11px !important; /* Deixa a letra do menu menorzinha no celular */
+    padding: 5px;
+  }
+
+  .brand {
+    justify-content: center; /* Centraliza o logo e o texto da marca no mobile */
+    width: 100%;
+  }
+}
