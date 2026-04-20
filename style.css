@@ -32,7 +32,7 @@ header {
 .brand { display: flex; align-items: center; gap: 15px; }
 
 .logo { 
-  height: 40px !important; width: auto !important; /* Logo pequena e elegante */
+  height: 80px !important; width: auto !important; /* Logo pequena e elegante */
   filter: brightness(1.1); transition: 0.3s ease; 
 }
 .logo:hover { transform: scale(1.05); }
