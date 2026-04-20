@@ -25,7 +25,7 @@ body {
 /* 2. HEADER E LOGO (FINO E ELEGANTE) */
 header { 
   background: rgba(0, 0, 0, 0.95); border-bottom: 1px solid #333; 
-  position: sticky; top: 0; z-index: 100; padding: 15px 0 !important; /* Menu fino */
+  position: sticky; top: 0; z-index: 100; padding: 15px 15 !important; /* Menu fino */
   backdrop-filter: blur(10px);
 }
 .header-flex { display: flex; justify-content: space-between; align-items: center; }
